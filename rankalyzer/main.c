@@ -63,7 +63,7 @@ int main(void) {
 
 	// Display per team
 	for (int t = 0; t < 2; t++)
-		printf("Team #%i Average Rank: %s (%i)\n", t + 1, RankNames[RankSums[t] * 2], RankSums[t] * 2);
+		printf("Team #%i Average Rank: %s (%i)\n", t + 1, RankNames[RankSums[t] * 2], RankSums[t]);
 
 	return 0;
 }
